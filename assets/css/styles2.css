@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-blue: rgb(82, 147, 211);
+    --color-light: #ffffff;
+    --color-dark: #000000;
+    --color-yellon: #ffc107;
+    --color-gray: ##999;
+    --color-green: #198754;
+}
+
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.contact-section {
+    color: var(--color-yellon);
+    background-color: var(--color-dark);
+    padding: 80px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,.contact-form textarea {
+width: 100%;
+padding: 20px;
+margin-bottom: 20px;
+border: 1px solid ;
+border-radius: 5px;
+}
+
+.contact-form button {
+padding: 10px 20px;
+background-color: var(--color-yellon);
+color: var(--color-dark);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.contact-form button:hover {
+background-color: var(--color-green);
+}
+
+
